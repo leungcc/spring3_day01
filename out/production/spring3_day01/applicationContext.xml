@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringFacetInspection -->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--通过一个bean标签设置类的信息，通过id属性为类起个标识-->
-    <bean id="userService" class="cn.itcast.spring3.demo1.HelloServiceImpl"></bean>
+    <!--<bean id="userService" class="cn.itcast.spring3.demo1.HelloServiceImpl">-->
+        <!--&lt;!&ndash;使用property标签注入属性&ndash;&gt;-->
+        <!--<property name="info" value="HAHA KING"></property>-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash;构造方法实例化&ndash;&gt;-->
+    <!--<bean id="bean1" class="cn.itcast.spring3.demo2.Bean1"></bean>-->
+    <!--&lt;!&ndash;静态工厂实例化&ndash;&gt;-->
+    <!--<bean id="bean2" class="cn.itcast.spring3.demo2.Bean2Factory" factory-method="getBean2"></bean>-->
+    <!--&lt;!&ndash;实例工厂实例化&ndash;&gt;-->
+    <!--<bean id="bean3Factory" class="cn.itcast.spring3.demo2.Bean3Factory"></bean>-->
+    <!--<bean id="bean3" factory-bean="bean3Factory" factory-method="getBean3"></bean>-->
+
+    <!--<bean id="customer" class="cn.itcast.spring3.demo3.Customer"></bean>-->
+    <!--<bean id="product" class="cn.itcast.spring3.demo3.Product" init-method="setup" destroy-method="teardown">-->
+        <!--<property name="name" value="xcLeung"></property>-->
+    <!--</bean>-->
+
+    <bean
+        id="customerService"
+        class="cn.itcast.spring3.demo4.CustomerServiceImpl"
+        init-method="setup"
+        destroy-method="teardown">
+        <property name="name" value="xcLeung"></property>
+    </bean>
+    <!--这个bean不需要id，不需要我们调用，由Spring自动调用-->
+    <bean class="cn.itcast.spring3.demo4.MyBeanPostProcessor"></bean>
 </beans>
