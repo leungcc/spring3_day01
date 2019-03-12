@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--suppress SpringFacetInspection -->
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--通过一个bean标签设置类的信息，通过id属性为类起个标识-->
@@ -23,13 +23,75 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
         <!--<property name="name" value="xcLeung"></property>-->
     <!--</bean>-->
 
-    <bean
-        id="customerService"
-        class="cn.itcast.spring3.demo4.CustomerServiceImpl"
-        init-method="setup"
-        destroy-method="teardown">
-        <property name="name" value="xcLeung"></property>
+    <!--<bean-->
+        <!--id="customerService"-->
+        <!--class="cn.itcast.spring3.demo4.CustomerServiceImpl"-->
+        <!--init-method="setup"-->
+        <!--destroy-method="teardown">-->
+        <!--<property name="name" value="xcLeung"></property>-->
+    <!--</bean>-->
+    <!--&lt;!&ndash;这个bean不需要id，不需要我们调用，由Spring自动调用&ndash;&gt;-->
+    <!--<bean class="cn.itcast.spring3.demo4.MyBeanPostProcessor"></bean>-->
+
+    <!-- **** bean属性注入 **** -->
+    <!--setter方法注入-->
+    <bean id="car" class="cn.itcast.spring3.demo5.Car">
+        <property name="name" value="宝马"></property>
+        <property name="price" value="380000"></property>
     </bean>
-    <!--这个bean不需要id，不需要我们调用，由Spring自动调用-->
-    <bean class="cn.itcast.spring3.demo4.MyBeanPostProcessor"></bean>
+    <!--构造器注入-->
+    <bean id="car2" class="cn.itcast.spring3.demo5.Car2">
+        <constructor-arg value="奔驰" index="0" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="300000" index="1" type="java.lang.Double"></constructor-arg>
+    </bean>
+    <!--SpEL写法：#{}-->
+    <bean id="car3" class="cn.itcast.spring3.demo5.Car">
+        <property name="name" value="#{personInfo.getName()}"></property>
+        <property name="price" value="#{'140000'}"></property>
+    </bean>
+    <bean id="personInfo" class="cn.itcast.spring3.demo5.PersonInfo">
+        <property name="name" value="张三"></property>
+    </bean>
+    <!--当属性是类实例时-->
+    <bean id="person" class="cn.itcast.spring3.demo5.Person">
+        <property name="car2" ref="car2"></property>
+        <property name="name" value="哈衰大"></property>
+    </bean>
+    <!--命名空间p：注入属性-->
+    <!--在文件开头的 beans 标签引入名称空间：xmlns:p="http://www.springframework.org/schema/p"-->
+    <bean id="car_p" class="cn.itcast.spring3.demo5.Car" p:name="宝马" p:price="330000"></bean>
+    <bean id="person_p" class="cn.itcast.spring3.demo5.Person" p:name="xcLeung" p:car2-ref="car2"></bean>
+
+
+    <!--集合属性的注入-->
+    <bean id="collectionBean" class="cn.itcast.spring3.demo6.CollectionBean">
+        <!--注入到List集合-->
+        <property name="list">
+            <list>
+                <value>童童</value>
+                <value>小凤</value>
+            </list>
+        </property>
+        <!--注入到set集合-->
+        <property name="set">
+            <set>
+                <value>杜洪</value>
+                <value>如花</value>
+            </set>
+        </property>
+        <!--注入map集合-->
+        <property name="map">
+            <map>
+                <entry key="刚刚" value="111"></entry>
+                <entry key="娇娇" value="333"></entry>
+            </map>
+        </property>
+        <!--注入Properties-->
+        <property name="properties">
+            <props>
+                <prop key="username">username</prop>
+                <prop key="username">password</prop>
+            </props>
+        </property>
+    </bean>
 </beans>

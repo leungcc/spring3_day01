@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="622e021e-72a0-4576-a35c-7ebff01f16f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo2/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo2/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo2/Bean2Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo2/Bean3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo2/Bean3Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo2/SpringTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo3/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo3/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo3/SpringTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/SpringTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Car2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/SpringTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo6/CollectionBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo6/SpringTest6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spring3_day01/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring3_day01/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo1/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo1/HelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo1/HelloServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo1/HelloServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo1/SpringTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo1/SpringTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring3_day01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring3_day01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo4/MyBeanPostProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo4/MyBeanPostProcessor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo4/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring3_day01/cn/itcast/spring3/demo4/MyBeanPostProcessor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/itcast/spring3/demo1/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo1/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/itcast/spring3/demo1/SpringTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo1/SpringTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/MyBeanPostProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,38 +27,39 @@
     <session id="1100596124">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="33" />
           <entry key="properties" value="1" />
           <entry key="tld" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="33" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3935" />
-          <entry key="xml" value="844" />
+          <entry key="java" value="4960" />
+          <entry key="xml" value="1829" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3935" />
-          <entry key="XML" value="844" />
+          <entry key="JAVA" value="4960" />
+          <entry key="XML" value="1829" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -84,56 +74,96 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerService.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo6/CollectionBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/SpringTest4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1689#1690#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/MyBeanPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo6/SpringTest6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1071#1716#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/SpringTest5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="42" column="79" lean-forward="true" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/PersonInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Car2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +189,7 @@
       <find>add</find>
       <find>customerService</find>
       <find>result</find>
+      <find>applicationContext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,8 +214,15 @@
         <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/SpringTest4.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo4/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Car.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Car2.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Person.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/SpringTest5.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo5/PersonInfo.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo6/SpringTest6.java" />
+        <option value="$PROJECT_DIR$/src/cn/itcast/spring3/demo6/CollectionBean.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -195,7 +233,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -260,14 +298,14 @@
               <item name="spring3_day01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="spring3" type="462c0819:PsiDirectoryNode" />
-              <item name="demo4" type="462c0819:PsiDirectoryNode" />
+              <item name="demo6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,11 +314,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -301,81 +341,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringTest4.demo1">
-    <configuration name="SpringTest2.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpringTest6.demo1">
+    <configuration name="SpringTest5.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring3_day01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.spring3.demo2.*" />
+          <option name="PATTERN" value="cn.itcast.spring3.demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo2" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo2.SpringTest2" />
-      <option name="METHOD_NAME" value="demo2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringTest2.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring3_day01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.spring3.demo2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo2" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo2.SpringTest2" />
+      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo5" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo5.SpringTest5" />
       <option name="METHOD_NAME" value="demo3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTest3.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringTest5.demoCarP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring3_day01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.spring3.demo3.*" />
+          <option name="PATTERN" value="cn.itcast.spring3.demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo3" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo3.SpringTest3" />
-      <option name="METHOD_NAME" value="demo1" />
+      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo5" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo5.SpringTest5" />
+      <option name="METHOD_NAME" value="demoCarP" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTest3.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringTest5.demoPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring3_day01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.spring3.demo3.*" />
+          <option name="PATTERN" value="cn.itcast.spring3.demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo3" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo3.SpringTest3" />
-      <option name="METHOD_NAME" value="demo2" />
+      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo5" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo5.SpringTest5" />
+      <option name="METHOD_NAME" value="demoPerson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTest4.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringTest5.demoPersonP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring3_day01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.spring3.demo4.*" />
+          <option name="PATTERN" value="cn.itcast.spring3.demo5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo4" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo4.SpringTest4" />
+      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo5" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo5.SpringTest5" />
+      <option name="METHOD_NAME" value="demoPersonP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest6.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring3_day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.spring3.demo6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.spring3.demo6" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.spring3.demo6.SpringTest6" />
       <option name="METHOD_NAME" value="demo1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -383,19 +423,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpringTest2.demo2" />
-      <item itemvalue="JUnit.SpringTest2.demo3" />
-      <item itemvalue="JUnit.SpringTest3.demo1" />
-      <item itemvalue="JUnit.SpringTest3.demo2" />
-      <item itemvalue="JUnit.SpringTest4.demo1" />
+      <item itemvalue="JUnit.SpringTest5.demo3" />
+      <item itemvalue="JUnit.SpringTest5.demoPerson" />
+      <item itemvalue="JUnit.SpringTest5.demoCarP" />
+      <item itemvalue="JUnit.SpringTest5.demoPersonP" />
+      <item itemvalue="JUnit.SpringTest6.demo1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringTest4.demo1" />
-        <item itemvalue="JUnit.SpringTest2.demo3" />
-        <item itemvalue="JUnit.SpringTest3.demo2" />
-        <item itemvalue="JUnit.SpringTest3.demo1" />
-        <item itemvalue="JUnit.SpringTest2.demo2" />
+        <item itemvalue="JUnit.SpringTest6.demo1" />
+        <item itemvalue="JUnit.SpringTest5.demo3" />
+        <item itemvalue="JUnit.SpringTest5.demoPersonP" />
+        <item itemvalue="JUnit.SpringTest5.demoCarP" />
+        <item itemvalue="JUnit.SpringTest5.demoPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -411,57 +451,57 @@
       <updated>1551945466700</updated>
       <workItem from="1551945471930" duration="5382000" />
       <workItem from="1552009234168" duration="20242000" />
-      <workItem from="1552267709202" duration="5011000" />
+      <workItem from="1552267709202" duration="5179000" />
+      <workItem from="1552355475125" duration="9041000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 17h 45m 30s.xml">
+    <history-entry file="SpringTest4_demo1 - 2019.03.12 at 10h 32m 12s.xml">
       <configuration name="SpringTest4.demo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 17h 45m 48s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demo1 - 2019.03.12 at 10h 38m 18s.xml">
+      <configuration name="SpringTest5.demo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 17h 46m 45s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demo2 - 2019.03.12 at 10h 46m 20s.xml">
+      <configuration name="SpringTest5.demo2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 17h 47m 56s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demo3 - 2019.03.12 at 10h 55m 15s.xml">
+      <configuration name="SpringTest5.demo3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 17h 48m 44s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demoPerson - 2019.03.12 at 11h 02m 03s.xml">
+      <configuration name="SpringTest5.demoPerson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 17h 49m 07s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demoCarP - 2019.03.12 at 11h 08m 49s.xml">
+      <configuration name="SpringTest5.demoCarP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 17h 52m 49s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demoCarP - 2019.03.12 at 11h 09m 07s.xml">
+      <configuration name="SpringTest5.demoCarP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 18h 00m 08s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demoPersonP - 2019.03.12 at 11h 12m 41s.xml">
+      <configuration name="SpringTest5.demoPersonP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 18h 03m 40s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest5_demo3 - 2019.03.12 at 11h 25m 04s.xml">
+      <configuration name="SpringTest5.demo3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest4_demo1 - 2019.03.11 at 18h 09m 03s.xml">
-      <configuration name="SpringTest4.demo1" configurationId="JUnit" />
+    <history-entry file="SpringTest6_demo1 - 2019.03.12 at 12h 47m 39s.xml">
+      <configuration name="SpringTest6.demo1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30635000" />
+    <option name="totallyTimeSpent" value="39844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36047775" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36047775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,6 +526,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/MyBeanPostProcessor.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo1/HelloService.java">
@@ -631,6 +683,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -638,43 +700,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/SpringTest4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/SpringTest4.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="-17">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo4/MyBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        <state relative-caret-position="446">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1071#1716#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/Car2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/PersonInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo5/SpringTest5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="42" column="79" lean-forward="true" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo6/CollectionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/itcast/spring3/demo6/SpringTest6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

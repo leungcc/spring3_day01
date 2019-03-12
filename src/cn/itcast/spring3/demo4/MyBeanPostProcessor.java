@@ -33,15 +33,14 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
                 bean.getClass().getInterfaces() ,
                 new InvocationHandler() {
                     // 调用目标方法的时候,调用invoke方法.
-                    public Object invoke(Object proxy, Method method, Object[] args)
-                            throws Throwable {
-                        if("add".equals(method.getName())){
-                            System.out.println("bean增强: 权限校验...");
-                            Object result = method.invoke(bean, args);
-                            //System.out.println(System.currentTimeMillis());
-                            return result;
-                        }
-                        return method.invoke(bean, args);
+                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                    if("add".equals(method.getName())){
+                        System.out.println("bean增强: 权限校验...");
+                        Object result = method.invoke(bean, args);
+                        //System.out.println(System.currentTimeMillis());
+                        return result;
+                    }
+                    return method.invoke(bean, args);
                     }
                 }
             );
